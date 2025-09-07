@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import Header from './sections/Header/Header'
+// import Header from './sections/header/Header';
+
 import Hero from './sections/hero/Hero'
 import About from './sections/about/About'
 import Skills from './sections/skills/Skills'
@@ -10,6 +11,7 @@ import Contact from './sections/contact/Contact'
 import Footer from './sections/footer/Footer'
 import useTheme from './hooks/useTheme'
 import FloatingParticles from './components/common/FloatingParticles'
+import Header from './sections/Header/Header'
 
 const App = () => {
   const { isDark, toggleTheme } = useTheme();
